@@ -1,12 +1,9 @@
 {
-    "workbench.editor.editorActionsLocation": "titleBar",
-    "window.customTitleBarVisibility": "auto",
-    //"window.customTitleBarVisibility": "auto",
-    "terminal.integrated.sendKeybindingsToShell": false,
-    "terminal.integrated.altClickMovesCursor": false,
     "extensions.experimental.affinity": {
-      "asvetliakov.vscode-neovim": 1
+        "asvetliakov.vscode-neovim": 1
     },
-    "python.languageServer": "Pylance",
-
-  }
+    "window.titleBarStyle": "custom",
+    "window.customMenuBarAltFocus": false,
+    // very important to make keybidings work on plugis
+    "window.enableMenuBarMnemonics": false, 
+}
