@@ -33,6 +33,9 @@ vim.g.markdown_folding = 1
 
 vim.g.markdown_enable_folding = 1
 
+vim.opt.termguicolors = true
+vim.cmd.colorscheme('vim')
+
 
 local module = {}
 local commands = {}

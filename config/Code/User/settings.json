@@ -5,5 +5,19 @@
     "window.titleBarStyle": "custom",
     "window.customMenuBarAltFocus": false,
     // very important to make keybidings work on plugis
-    "window.enableMenuBarMnemonics": false, 
+    "window.enableMenuBarMnemonics": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.txt": "default"
+    },
+    "workbench.view.showQuietly": {
+        "workbench.panel.output": true
+    },
+    "github.copilot.chat.experimental.localModels": true,
+    "editor.rulers": [80,120],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#555"
+    },
+    "chat.viewSessions.orientation": "stacked"
+
 }

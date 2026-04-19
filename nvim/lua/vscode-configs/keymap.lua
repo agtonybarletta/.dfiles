@@ -32,9 +32,11 @@ M.commands = {
 
     ['n-<leader>K'] = function() vscode.action('editor.action.showHover') end,
     ['n-<leader>gd'] = function() vscode.action('editor.action.revealDefinition') end,
+    ['v-<leader>gd'] = "",
     ['n-<leader>gD'] = function() vscode.action('editor.action.revealDeclaration') end,
     ['n-<leader>gi'] = function() vscode.action('editor.action.goToImplementation') end,
     ['n-<leader>gr'] = function() vscode.action('editor.action.referenceSearch.trigger') end,
+    ['v-<leader>gr'] = "",
     ['n-<leader>ga'] = function() vscode.action('editor.action.quickFix') end,
     ['n-<leader>gf'] = function() vscode.action('editor.action.formatDocument') end,
     ['n-<leader>gR'] = function() vscode.action('editor.action.rename') end,
